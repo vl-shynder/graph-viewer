@@ -4,8 +4,16 @@
   "description": "Graph Parser and Viewer",
   "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Helo World\""
+    "test": "echo \"Helo World\"",
+    "server": "live-server --entry-file=./public/index.html",
+    "watch": "tsc -w",
+    "dev": "concurrently --kill-others \"npm run server\" \"npm run watch\""
   },
   "author": "Vladyslav Shynder <vl.shynder@gmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "live-server": "^1.2.2",
+    "typescript": "^5.3.3"
+  }
 }
