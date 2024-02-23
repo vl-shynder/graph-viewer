@@ -1,0 +1,11 @@
+{
+  "name": "graph-viewer",
+  "version": "1.0.0",
+  "description": "Graph Parser and Viewer",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Helo World\""
+  },
+  "author": "Vladyslav Shynder <vl.shynder@gmail.com>",
+  "license": "ISC"
+}
